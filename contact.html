@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- 부트스트랩 css 사용 -->
-<link rel="stylesheet" href="css/bootstrap.css">
+  <!-- 부트스트랩 css 사용 -->
+  <link rel="stylesheet" href="css/bootstrap.css">
   <!--  부트스트랩 js 사용 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="/Square/js/bootstrap.js"></script>
@@ -15,33 +15,20 @@
   <title>SQUARE</title>
 </head>
 <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="index.html"><img style="height: 20pt;" src="/Square/img/SQUARE.png"
-          alt=""></a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample07"
-        aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom bg-light rounded">
+    <a href="index.html" class="d-flex align-items-center mx-4 mb-3 mb-md-0 me-md-auto text-decoration-none text-black">
+      <img class="rounded" width="40pt" height="40pt" src="/Square/img/SQLOGO.png" alt="">
+      <span class="fs-4 mx-4">SQUARE</span>
+    </a>
 
-      <div class="navbar-collapse collapse justify-content-end" id="navbarsExample07">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Overview</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="sub.html">Subscription</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="member.html">Member</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <ul class="nav nav-pills mx-3">
+      <li class="nav-item"><a href="index.html" class="nav-link text-black" aria-current="page">Overview</a></li>
+      <li class="nav-item"><a href="aboutus.html" class="nav-link text-black">About US</a></li>
+      <li class="nav-item"><a href="sub.html" class="nav-link text-black">Subscription</a></li>
+      <li class="nav-item"><a href="member.html" class="nav-link text-black">Member</a></li>
+      <li class="nav-item"><a href="contact.html" class="nav-link text-black active">Contact</a></li>
+    </ul>
+  </header>
 </header>
 
 <body class="bg-dark">
