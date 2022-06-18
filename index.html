@@ -1,339 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 부트스트랩 css 사용 -->
+  <link rel="stylesheet" href="/Square/css/bootstrap.css">
+  <!--  부트스트랩 js 사용 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/Square/js/bootstrap.js"></script>
 
-  <title>SQUARE</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="/Square/img/SQLOGO.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Nova - v1.0.0
-  * Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <title>Material IT</title>
 </head>
-
-<body class="page-index bg-dark">
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="header d-flex align-items-center fixed-top bg-dark">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="" alt=""> -->
-        <h1 class="d-flex align-items-center">SQUARE</h1>
-      </a>
-
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex align-items-center">
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <div class="row">
-        <div class="col-xl-4">
-          <h2 data-aos="fade-up">Easier IT Life, SQUARE</h2>
-          <blockquote data-aos="fade-up" data-aos-delay="100">
-            <!-- <p>추가 메인 소개내용</p> -->
-          </blockquote>
-          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-            <a href="#about" class="btn-get-started">Get Started</a>
-            <!-- <a href="https://www.youtube.com/channel/UCWHtU2gxQ8CEfPL6NvN5Utw/featured" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
-          </div>
+      <a class="navbar-brand" href="index.html"><img style="height: 20pt;" src="/Square/img/SQUARE.png"
+          alt=""></a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample07"
+        aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        </div>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarsExample07">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sub.html">Subscription</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="member.html">Member</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
-  </section><!-- End Hero Section -->
+  </nav>
+</header>
 
-  <main id="main">
-
-    <!-- ======= What We Do Section ======= -->
-    <section id="why-us" class="why-us">
-      <div class="container my-4" data-aos="fade-up">
-
-        <div class="section-header text-light">
-          <h2>What We Do</h2>
-
-        </div>
-
-        <div class="row g-0" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-xl-5 img-bg" style="background-image: url('assets/img/why-us-bg.jpg')"></div>
-          <div class="col-xl-7 slides  position-relative">
-
-            <div class="slides-1 swiper">
-              <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                  <div class="item">
-                    <h3 class="mb-3">Meet IT Easliy</h3>
-                    <h4 class="mb-3">IT를 더 쉽게 만나다. </h4>
-                    <p>IT의 전문가들이 모여 많은 소식을 더욱 발빠르게 전달하고, 또한 여러 기기을 사용해보고 리뷰를 작성하여 좋은 소식을 더욱 빠르게 전달합니다. </p>
+<body class="bg-dark">
+  <!-- 메인 1단 -->
+  <div id="preview" class="preview">
+    <div style="display: none;"></div>
+    <div>
+      <div data-draggable="true" class="" style="position: relative;" draggable="false">
+        <section draggable="false" class="overflow-hidden pt-0" data-v-271253ee="">
+          <section class="mb-10">
+            <div class="p-5 text-center bg-image"
+              style="background-image: url(&quot;https://cdn.discordapp.com/attachments/985733012362780744/987532368732622858/Square_PC_Wide.png&quot;); height: 500px; background-size: cover; background-color: rgba(0, 0, 0, 0); background-position: 50% 50%;"
+              aria-controls="#picker-editor"></div>
+            <div class="container">
+              <div class="card mx-4 mx-md-5 text-center shadow-5-strong"
+                style=" margin-top: -170px; background: hsla(0, 0%, 100%, 0.7); backdrop-filter: blur(30px); ">
+                <div class="card-body px-4 py-5 px-md-5">
+                  <h1 class="display-3 fw-bold ls-tight mb-4"> <span >Easier IT Life,</span> <br> <span class="text-black">SQUARE
+                      </span> </h1> <a class="btn btn-dark btn-lg py-3 px-5 mb-2 mb-md-0 me-md-2" href="#" role="button"
+                    aria-controls="#picker-editor" draggable="false">Get started</a> 
+                    <a class="btn btn-link btn-lg py-3 px-5 mb-2 mb-md-0 text-dark" role="button"
+                    aria-controls="#picker-editor" draggable="false" href="#scrollspyHeading1">Learn more</a>
                   </div>
-                </div><!-- End slide item -->
-
-                <div class="swiper-slide">
-                  <div class="item">
-                    <h3 class="mb-3">SQUARE Youtube</h3>
-                    <h4 class="mb-3">소식을 영상으로, 더욱 빠르게 </h4>
-                    <p>스퀘어 창립 이후, 스퀘어의 주 설립 목적인 IT를 사람들에게 더욱 빠르고 쉽게 알리는 방법으로 Youtube를 사용하고 있습니다.</p>
-                  </div>
-                </div><!-- End slide item -->
-
-                <div class="swiper-slide">
-                  <div class="item">
-                    <h3 class="mb-3">슼토어</h3>
-                    <h4 class="mb-3">IT 전문가들이 운영하는, 합리적인 전자기기 종합 쇼핑몰</h4>
-                    <p>재생 토너의 판매를 시작으로 본격적인 해외직구 대행까지, 더욱 편리하고 빠르게 이용할 수 있습니다. </p>
-                  </div>
-                </div><!-- End slide item -->
               </div>
-              <div class="swiper-pagination"></div>
             </div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-          </div>
-
-        </div>
-
+          </section>
+        </section>
       </div>
-    </section><!-- End What We Do Section -->
+    </div>
+  </div>
 
-
-    <!-- ======= Call To Action Section ======= -->
-    <section id="call-to-action" class="call-to-action">
-      <div class="container" data-aos="fade-up">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 text-center">
-            <h3>Contact</h3>
-            <p>저희 회사에 관하여 궁금하시거나 연락주실 일이 있다면 언제든지 문의해 주십시오. </p>
-            <a class="cta-btn" href="#">Contact</a>
-          </div>
-        </div>
-
+  <div class="container marketing">
+    <!-- START THE FEATURETTES -->
+    <div id="scrollspyHeading1">
+    <div class="row featurette bg-muted rounded p-2 m-4">
+      <div class="col-md-7">
+        <h2 class="text-light featurette-heading">IT를 더 쉽게 만나다. <span class="text-muted">Meet IT Easily</span></h2>
+        <p class="text-light lead">IT 전문가들이 모여 만든 Material IT는 여러 소식들을 발빠르게 기사화하고 IT기기들을 전문가의 입장으로서 리뷰하는 리뷰 전문 사이트입니다.</p>
       </div>
-    </section><!-- End Call To Action Section -->
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded" width="500" height="500" src="/Square/img/MIT_IMG11.png" alt="">
 
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-
-      <div class="container" data-aos="fade-up">
-        <div class="row">
-          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-            <h3>Powerful Features for <br>Your Business</h3>
-
-            <div class="row gy-4">
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="ri-store-line" style="color: #ffbb2c;"></i>
-                  <span>Easy Cart Features</span>
-                </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-                  <span>Sit amet consectetur adipisicing</span>
-                </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-                  <span>Ipsum Rerum Explicabo</span>
-                </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-                  <span>Easy Cart Features</span>
-                </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="ri-database-2-line" style="color: #47aeff;"></i>
-                  <span>Easy Cart Features</span>
-                </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-                  <span>Sit amet consectetur adipisicing</span>
-                </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-                  <span>Ipsum Rerum Explicabo</span>
-                </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="ri-base-station-line" style="color: #ff5828;"></i>
-                  <span>Easy Cart Features</span>
-                </div>
-              </div><!-- End Icon List Item-->
-            </div>
-          </div>
-          <div class="col-lg-5 position-relative" data-aos="fade-up" data-aos-delay="200">
-            <div class="phone-wrap">
-              <img src="assets/img/iphone.png" alt="Image" class="img-fluid">
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="details">
-        <div class="container" data-aos="fade-up" data-aos-delay="300">
-          <div class="row">
-            <div class="col-md-6">
-              <h4>Labore Sdio Lidui<br>Bonde Naruto</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nostrum molestias doloremque quae delectus odit minima corrupti blanditiis quo animi!</p>
-              <a href="#about" class="btn-get-started">Get Started</a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </section><!-- End Features Section -->
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-
-    <div class="footer-content">
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-5 col-md-12 footer-info">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <span>Nova</span>
-            </a>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
-            <div class="social-links d-flex  mt-3">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bi bi-dash"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bi bi-dash"></i> <a href="#">Web Design</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">Web Development</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">Product Management</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">Marketing</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-            <h4>Contact Us</h4>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-
-          </div>
-
-        </div>
       </div>
     </div>
 
-    <div class="footer-legal">
-      <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Nova</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nova-bootstrap-business-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
+    <div class="row featurette bg-muted rounded p-2 m-4">
+      <div class="col-md-7 order-md-2">
+        <h2 class="text-light featurette-heading">SQUARE Youtube. <span class="text-muted">소식을 더욱 빠르게</span></h2>
+        <p class="text-light lead">Material IT의 소식을 기다리기 힘들고 더욱 빠르고 간편하게 소식을 전달받고 싶다면 SQUARE Youtube에 관심을 가져보세요.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded" width="500" height="500" src="/Square/img/슦슦퀘어.png" alt="">
       </div>
     </div>
-  </footer><!-- End Footer -->
-  <!-- End Footer -->
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <div class="row featurette bg-muted rounded p-2 m-4">
+      <div class="col-md-7">
+        <h2 class="text-light featurette-heading">슼토어. <span class="text-muted">합리적인 전자기기 종합 쇼핑몰</span></h2>
+        <p class="text-light lead">IT 전문가들이 운영하는, 여러 분야의 전자기기를 더욱 간편하고 빠르게 구매할 수 있는 전문 쇼핑몰입니다.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded" width="500" height="500" src="/Square/img/SQLOGO.png" alt="">
+      </div>
+    </div>
 
-  <div id="preloader"></div>
+    </div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- /END THE FEATURETTES -->
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+  </div>
 </body>
+<footer class="bg-light text-center text-lg-start rounded">
+  <div class="container p-4">
+  <!-- Grid container -->
+      <div class="text-center">
+        <h5 class="text-uppercase">Copyright Material IT. All rights reserved.</h5>
+
+        <p>
+          SQUARE / 대표자 : 김지수 / 사업자등록번호 : 228-04-63824 / 대전광역시 유성구 유성대로642번길 45, 1층 101-이14호 (구암동)
+        </p>
+
+        <p>
+          통신판매번호 : 2022-대전유성-0757 / 상호 : 스퀘어(SQUARE) / <a href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2280463824">자세히</a>
+        </p>
+      </div>
+      <!--Grid column-->
+
+    <!--Grid row-->
+  <!-- Grid container -->
+ </div>
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    
+    <a class="text-dark" href="">2022 SQUARE / Dev Team</a>
+  </div>
+
+  <!-- Copyright -->
+</footer>
 
 </html>
