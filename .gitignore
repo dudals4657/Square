@@ -1,0 +1,7 @@
+/node_modules/
+package-lock.json
+package.json
+.idea/.gitignore
+.idea/modules.xml
+.idea/Square.iml
+.idea/vcs.xml
